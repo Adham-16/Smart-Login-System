@@ -17,7 +17,7 @@ function getInfo() {
             message.innerHTML = `<span class="bg-success rounded-3 p-2">Success Go to Sign in</span>`
             infoArr.push(infoObject());
             localStorage.setItem("information",JSON.stringify(infoArr))
-            location.replace("/SignIn.html");
+            location.replace("SignIn.html");
             clear();
         }
         else{
@@ -72,7 +72,7 @@ function atHome() {
     showProduct();
 }
 function logOut() {
-    location.replace("/SignIn.html");
+    location.replace("SignIn.html");
     localStorage.removeItem('name')
 }
 function showProduct() {
