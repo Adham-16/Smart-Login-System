@@ -52,7 +52,7 @@ function clear() {
 }
 function login() {
     if (validateLogin() == true) {
-    location.replace("/home.html");
+    location.replace("home.html");
     }
     else{
         messageUp.innerHTML=`<span class="bg-danger rounded-3 p-2">incorrect email or password</span>`
